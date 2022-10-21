@@ -1,0 +1,869 @@
+{
+    "general_start": {
+        "type": "PanelBody",
+        "label": "General"
+    },
+    "products_per_page": {
+        "control": {
+            "field": "__experimentalNumberControl",
+            "label": "Products Per Page",
+            "props": {
+                "max": 50,
+                "min": 1
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": 6
+        }
+    },
+    "product_order": {
+        "control": {
+            "field": "SelectControl",
+            "label": "Order",
+            "props": {
+                "options": [
+                    {
+                        "label": "DESC",
+                        "value": "DESC"
+                    },
+                    {
+                        "label": "ASC",
+                        "value": "ASC"
+                    }
+                ]
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": "DESC"
+        }
+    },
+    "column": {
+        "control": {
+            "field": "__experimentalNumberControl",
+            "label": "Column",
+            "props": {
+                "max": 12,
+                "min": 1,
+                "step": 1
+            }
+        },
+        "responsive": true,
+        "type": "object",
+        "default": {
+            "desktop": 6
+        }
+    },
+    "general_end": {
+        "type": "PanelBody",
+        "label": "General"
+    },
+    "settings_start": {
+        "type": "PanelBody",
+        "label": "Settings"
+    },
+    "badge_settings": {
+        "control": {
+            "field": "__experimentalHeading",
+            "label": "Badge",
+            "props": {}
+        },
+        "type": "object",
+        "default": {
+            "desktop": "Badge"
+        }
+    },
+    "show_sale": {
+        "control": {
+            "field": "ToggleControl",
+            "label": "Show Sale Badge?",
+            "props": {
+                "checked": true
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": true
+        }
+    },
+    "show_tag": {
+        "control": {
+            "field": "ToggleControl",
+            "label": "Show Tag",
+            "props": {
+                "checked": true
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": true
+        }
+    },
+    "badge_position": {
+        "control": {
+            "field": "SelectControl",
+            "label": "Badge Position",
+            "props": {
+                "options": [
+                    {
+                        "label": "Top Left",
+                        "value": "left"
+                    },
+                    {
+                        "label": "Top Right",
+                        "value": "right"
+                    },
+                    {
+                        "label": "Custom",
+                        "value": "custom"
+                    }
+                ]
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": "right"
+        }
+    },
+    "badge_position_x_axis": {
+        "control": {
+            "field": "RangeControl",
+            "label": "Custom Badge Position (X axis) (%)",
+            "props": {
+                "min": 0,
+                "max": 100,
+                "step": 1
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": "4"
+        }
+    },
+    "badge_position_y_axis": {
+        "control": {
+            "field": "RangeControl",
+            "label": "Custom Badge Position (Y axis)(%)",
+            "props": {
+                "min": 0,
+                "max": 100,
+                "step": 1
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": "4"
+        }
+    },
+    "badge_align": {
+        "control": {
+            "field": "SelectControl",
+            "label": "Badge Align",
+            "props": {
+                "options": [
+                    {
+                        "label": "Vertical",
+                        "value": "vertical"
+                    },
+                    {
+                        "label": "Horizontal",
+                        "value": "horizontal"
+                    }
+                ]
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": "horizontal"
+        }
+    },
+    "settings_end": {
+        "type": "PanelBody",
+        "label": "Settings"
+    },
+    "product_wrap_style_section_start": {
+        "type": "PanelBody",
+        "label": "Product Wrap"
+    },
+    "product_item_column_gap": {
+        "control": {
+            "field": "RangeControl",
+            "label": "Column Gap (px)",
+            "props": {
+                "min": 0,
+                "max": 200,
+                "step": 1
+            }
+        },
+        "responsive": true,
+        "type": "object",
+        "default": {
+            "desktop": "20"
+        }
+    },
+    "product_item_row_gap": {
+        "control": {
+            "field": "RangeControl",
+            "label": "Row Gap (px)",
+            "props": {
+                "min": 0,
+                "max": 200,
+                "step": 1
+            }
+        },
+        "responsive": true,
+        "type": "object",
+        "default": {
+            "desktop": "20"
+        }
+    },
+    "product_wrap_padding": {
+        "control": {
+            "field": "__experimentalBoxControl",
+            "props": {
+                "label": "Padding (px)",
+                "values": {
+                    "top": "0px",
+                    "right": "0px",
+                    "bottom": "0px",
+                    "left": "0px"
+                }
+            }
+        },
+        "type": "object",
+        "responsive": true,
+        "default": {
+            "desktop": {
+                "top": "0px",
+                "right": "0px",
+                "bottom": "0px",
+                "left": "0px"
+            }
+        }
+    },
+    "product_image_bg": {
+        "control": {
+            "field": "ColorPalette",
+            "label": "Image Background",
+            "props": {
+                "colors": [
+                    {
+                        "name": "red",
+                        "color": "#f00"
+                    },
+                    {
+                        "name": "white",
+                        "color": "#fff"
+                    },
+                    {
+                        "name": "blue",
+                        "color": "#00f"
+                    }
+                ]
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": ""
+        }
+    },
+    "product_wrap_border_type": {
+        "control": {
+            "field": "SelectControl",
+            "label": "Border Type",
+            "props": {
+                "options": [
+                    {
+                        "label": "None",
+                        "value": "none"
+                    },
+                    {
+                        "label": "Solid",
+                        "value": "solid"
+                    },
+                    {
+                        "label": "Double",
+                        "value": "double"
+                    },
+                    {
+                        "label": "Dotted",
+                        "value": "dotted"
+                    },
+                    {
+                        "label": "Dashed",
+                        "value": "dashed"
+                    },
+                    {
+                        "label": "Groove",
+                        "value": "groove"
+                    }
+                ]
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": "solid"
+        }
+    },
+    "product_wrap_border_width": {
+        "control": {
+            "field": "__experimentalBoxControl",
+            "props": {
+                "label": "Width(px)",
+                "values": {
+                    "top": "0px",
+                    "right": "0px",
+                    "bottom": "0px",
+                    "left": "0px"
+                }
+            }
+        },
+        "type": "object",
+        "responsive": true,
+        "default": {
+            "desktop": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+            }
+        }
+    },
+    "product_wrap_border_color": {
+        "control": {
+            "field": "ColorPalette",
+            "label": "Color",
+            "props": {
+                "colors": [
+                    {
+                        "name": "red",
+                        "color": "#f00"
+                    },
+                    {
+                        "name": "white",
+                        "color": "#fff"
+                    },
+                    {
+                        "name": "blue",
+                        "color": "#00f"
+                    }
+                ]
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": ""
+        }
+    },
+    "shopengine_product_wrap_hide_right_border": {
+        "control": {
+            "field": "ToggleControl",
+            "label": "Hide Right Boder?",
+            "props": {
+                "checked": true
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": false
+        }
+    },
+    "product_wrap_style_section_end": {
+        "type": "PanelBody",
+        "label": "Product Wrap"
+    },
+    "product_image_style_section_start": {
+        "type": "PanelBody",
+        "label": "Product Image"
+    },
+    "product_image_use_equal_height": {
+        "control": {
+            "field": "ToggleControl",
+            "label": "Use equal height for all image",
+            "props": {
+                "checked": true
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": false
+        }
+    },
+    "product_image_fit": {
+        "control": {
+            "field": "SelectControl",
+            "label": "Image fit",
+            "props": {
+                "options": [
+                    {
+                        "label": "Contain",
+                        "value": "contain"
+                    },
+                    {
+                        "label": "Cover",
+                        "value": "cover"
+                    }
+                ]
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": "contain"
+        }
+    },
+    "product_image_height": {
+        "control": {
+            "field": "RangeControl",
+            "label": "Image height",
+            "props": {
+                "min": 0,
+                "max": 500,
+                "step": 1
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": 180
+        }
+    },
+    "product_image_style_section_end": {
+        "type": "PanelBody",
+        "label": "Product Image"
+    },
+    "product_badge_style_section_start": {
+        "type": "PanelBody",
+        "label": "Product Badge"
+    },
+    "product_badge_typography_typography_start": {
+        "type": "PopoverControl",
+        "label": "Typography"
+    },
+    "product_badge_typography_font_family": {
+        "control": {
+            "field": "FontfamilyControl",
+            "label": "Font Family"
+        },
+        "type": "object"
+    },
+    "product_badge_typography_font_size": {
+        "control": {
+            "field": "RangeControl",
+            "label": "Font Size(px)",
+            "props": {
+                "min": 0,
+                "max": 200,
+                "step": 1
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": "12"
+        }
+    },
+    "product_badge_typography_font_weight": {
+        "control": {
+            "field": "SelectControl",
+            "label": "Font Weight",
+            "props": {
+                "options": [
+                    {
+                        "label": "100",
+                        "value": "100"
+                    },
+                    {
+                        "label": "200",
+                        "value": "200"
+                    },
+                    {
+                        "label": "300",
+                        "value": "300"
+                    },
+                    {
+                        "label": "400",
+                        "value": "400"
+                    },
+                    {
+                        "label": "500",
+                        "value": "500"
+                    },
+                    {
+                        "label": "600",
+                        "value": "600"
+                    },
+                    {
+                        "label": "700",
+                        "value": "700"
+                    },
+                    {
+                        "label": "800",
+                        "value": "800"
+                    },
+                    {
+                        "label": "900",
+                        "value": "900"
+                    },
+                    {
+                        "label": "Default",
+                        "value": "normal"
+                    },
+                    {
+                        "label": "Normal",
+                        "value": "normal"
+                    },
+                    {
+                        "label": "Bold",
+                        "value": "bold"
+                    }
+                ]
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": "700"
+        }
+    },
+    "product_badge_typographytext_transform": {
+        "control": {
+            "field": "SelectControl",
+            "label": "Transform",
+            "props": {
+                "options": [
+                    {
+                        "label": "Default",
+                        "value": "none"
+                    },
+                    {
+                        "label": "Uppercase",
+                        "value": "uppercase"
+                    },
+                    {
+                        "label": "Lowercase",
+                        "value": "lowercase"
+                    },
+                    {
+                        "label": "Capitalize",
+                        "value": "capitalize"
+                    },
+                    {
+                        "label": "Normal",
+                        "value": "normal"
+                    }
+                ]
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": "none"
+        }
+    },
+    "product_badge_typography_line_height": {
+        "control": {
+            "field": "RangeControl",
+            "label": "Line Height(px)",
+            "props": {
+                "min": 0,
+                "max": 100,
+                "step": 1
+            }
+        },
+        "responsive": true,
+        "type": "object",
+        "default": {
+            "desktop": "24"
+        }
+    },
+    "product_badge_typography_letter_spacing": {
+        "control": {
+            "field": "RangeControl",
+            "label": "Letter Spacing(px)",
+            "props": {
+                "min": 0,
+                "max": 100,
+                "step": 1
+            }
+        },
+        "responsive": true,
+        "type": "object",
+        "default": {
+            "desktop": ""
+        }
+    },
+    "product_badge_typography_wordspace": {
+        "control": {
+            "field": "RangeControl",
+            "label": "Word Spacing(px)",
+            "props": {
+                "min": 0,
+                "max": 100,
+                "step": 1
+            }
+        },
+        "responsive": true,
+        "type": "object",
+        "default": {
+            "desktop": ""
+        }
+    },
+    "product_badge_typography_typography_end": {
+        "type": "PopoverControl"
+    },
+    "product_badge_color": {
+        "control": {
+            "field": "ColorPalette",
+            "label": "Color",
+            "props": {
+                "colors": [
+                    {
+                        "name": "red",
+                        "color": "#f00"
+                    },
+                    {
+                        "name": "white",
+                        "color": "#fff"
+                    },
+                    {
+                        "name": "blue",
+                        "color": "#00f"
+                    }
+                ]
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": "#ffffff"
+        }
+    },
+    "product_badge_bg": {
+        "control": {
+            "field": "ColorPalette",
+            "label": "Badge Background",
+            "props": {
+                "colors": [
+                    {
+                        "name": "red",
+                        "color": "#f00"
+                    },
+                    {
+                        "name": "white",
+                        "color": "#fff"
+                    },
+                    {
+                        "name": "blue",
+                        "color": "#00f"
+                    }
+                ]
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": "#f03d3f"
+        }
+    },
+    "product_percentage_badge_bg": {
+        "control": {
+            "field": "ColorPalette",
+            "label": "Percentage Badge Background",
+            "props": {
+                "colors": [
+                    {
+                        "name": "red",
+                        "color": "#f00"
+                    },
+                    {
+                        "name": "white",
+                        "color": "#fff"
+                    },
+                    {
+                        "name": "blue",
+                        "color": "#00f"
+                    }
+                ]
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": ""
+        }
+    },
+    "product_badgey_item_space_between": {
+        "control": {
+            "field": "RangeControl",
+            "label": "Space In-between Item (px)",
+            "props": {
+                "min": 0,
+                "max": 200,
+                "step": 1
+            }
+        },
+        "responsive": true,
+        "type": "object",
+        "default": {
+            "desktop": "2"
+        }
+    },
+    "product_badge_padding": {
+        "control": {
+            "field": "__experimentalBoxControl",
+            "props": {
+                "label": "Padding",
+                "values": {
+                    "top": "0px",
+                    "right": "0px",
+                    "bottom": "0px",
+                    "left": "0px"
+                }
+            }
+        },
+        "type": "object",
+        "responsive": true,
+        "default": {
+            "desktop": {
+                "top": "0px",
+                "right": "10px",
+                "bottom": "0px",
+                "left": "10px"
+            }
+        }
+    },
+    "product_badge_margin": {
+        "control": {
+            "field": "__experimentalBoxControl",
+            "props": {
+                "label": "Margin (px)",
+                "values": {
+                    "top": "0px",
+                    "right": "0px",
+                    "bottom": "0px",
+                    "left": "0px"
+                }
+            }
+        },
+        "type": "object",
+        "responsive": true,
+        "default": {
+            "desktop": {
+                "top": "0px",
+                "right": "0px",
+                "bottom": "0px",
+                "left": "0px"
+            }
+        }
+    },
+    "badge_border_type": {
+        "control": {
+            "field": "SelectControl",
+            "label": "Border Type",
+            "props": {
+                "options": [
+                    {
+                        "label": "None",
+                        "value": "none"
+                    },
+                    {
+                        "label": "Solid",
+                        "value": "solid"
+                    },
+                    {
+                        "label": "Double",
+                        "value": "double"
+                    },
+                    {
+                        "label": "Dotted",
+                        "value": "dotted"
+                    },
+                    {
+                        "label": "Dashed",
+                        "value": "dashed"
+                    },
+                    {
+                        "label": "Groove",
+                        "value": "groove"
+                    }
+                ]
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": "solid"
+        }
+    },
+    "badge_border_width": {
+        "control": {
+            "field": "__experimentalBoxControl",
+            "props": {
+                "label": "Width(px)",
+                "values": {
+                    "top": "0px",
+                    "right": "0px",
+                    "bottom": "0px",
+                    "left": "0px"
+                }
+            }
+        },
+        "type": "object",
+        "responsive": true,
+        "default": {
+            "desktop": {
+                "top": "0px",
+                "right": "0px",
+                "bottom": "0px",
+                "left": "0px"
+            }
+        }
+    },
+    "badge_border_color": {
+        "control": {
+            "field": "ColorPalette",
+            "label": "Color",
+            "props": {
+                "colors": [
+                    {
+                        "name": "red",
+                        "color": "#f00"
+                    },
+                    {
+                        "name": "white",
+                        "color": "#fff"
+                    },
+                    {
+                        "name": "blue",
+                        "color": "#00f"
+                    }
+                ]
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": ""
+        }
+    },
+    "badge_border_radius": {
+        "control": {
+            "field": "__experimentalBoxControl",
+            "props": {
+                "label": "Border Radius",
+                "values": {
+                    "top": "0px",
+                    "right": "0px",
+                    "bottom": "0px",
+                    "left": "0px"
+                }
+            }
+        },
+        "type": "object",
+        "responsive": true,
+        "default": {
+            "desktop": {
+                "top": "3px",
+                "right": "3px",
+                "bottom": "3px",
+                "left": "3px"
+            }
+        }
+    },
+    "product_badge_style_section_end": {
+        "type": "PanelBody",
+        "label": "Product Badge"
+    }
+}

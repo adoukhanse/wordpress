@@ -1,0 +1,399 @@
+{
+    "shopengine_section_meta_content_start": {
+        "type": "PanelBody",
+        "label": "Settings"
+    },
+    "shopengine_sku_display": {
+        "control": {
+            "field": "ToggleControl",
+            "label": "SKU"
+        },
+        "type": "object",
+        "default": {
+            "desktop": true
+        }
+    },
+    "shopengine_category_display": {
+        "control": {
+            "field": "ToggleControl",
+            "label": "Category"
+        },
+        "type": "object",
+        "default": {
+            "desktop": true
+        }
+    },
+    "shopengine_tag_display": {
+        "control": {
+            "field": "ToggleControl",
+            "label": "Tag"
+        },
+        "type": "object",
+        "default": {
+            "desktop": true
+        }
+    },
+    "shopengine_section_meta_content_end": {
+        "type": "PanelBody"
+    },
+    "style_start": {
+        "type": "PanelBody",
+        "label": "Styles"
+    },
+    "shopengine_layout_control": {
+        "control": {
+            "field": "SelectControl",
+            "label": "Layout",
+            "props": {
+                "options": [
+                    {
+                        "label": "Default",
+                        "value": "block"
+                    },
+                    {
+                        "label": "Inline",
+                        "value": "inline-block"
+                    }
+                ]
+            }
+        },
+        "type": "object",
+        "responsive": true,
+        "default": {
+            "desktop": "block",
+            "mobile": "block",
+            "tablet": "block"
+        }
+    },
+    "shopengine_align_control": {
+        "control": {
+            "field": "SelectControl",
+            "label": "Align",
+            "props": {
+                "options": [
+                    {
+                        "label": "Left",
+                        "value": "left"
+                    },
+                    {
+                        "label": "Center",
+                        "value": "center"
+                    },
+                    {
+                        "label": "Right",
+                        "value": "Right"
+                    }
+                ]
+            }
+        },
+        "type": "object",
+        "responsive": true,
+        "default": {
+            "desktop": "left",
+            "mobile": "left",
+            "tablet": "left"
+        }
+    },
+    "shopengine_padding_control": {
+        "control": {
+            "field": "__experimentalBoxControl",
+            "props": {
+                "label": "padding",
+                "values": {
+                    "top": "0",
+                    "left": "0",
+                    "right": "0",
+                    "bottom": "0"
+                }
+            }
+        },
+        "type": "object",
+        "responsive": true,
+        "default": {
+            "desktop": {
+                "top": "0",
+                "right": "0",
+                "bottom": "8px",
+                "left": "0"
+            },
+            "mobile": {
+                "top": "0",
+                "right": "0",
+                "bottom": "8px",
+                "left": "0"
+            },
+            "tablet": {
+                "top": "0",
+                "right": "0",
+                "bottom": "8px",
+                "left": "0"
+            }
+        }
+    },
+    "shopengine_label_section_divider": {
+        "control": {
+            "field": "__experimentalDivider",
+            "props": {}
+        },
+        "type": "object"
+    },
+    "shopengine_label_section": {
+        "control": {
+            "field": "__experimentalHeading",
+            "props": {
+                "children": "Label "
+            }
+        },
+        "type": "object"
+    },
+    "shopengine_label_color": {
+        "control": {
+            "field": "ColorPicker",
+            "label": "Label Color"
+        },
+        "type": "object",
+        "default": {
+            "desktop": {
+                "hex": "#101010"
+            },
+            "mobile": {
+                "hex": "#101010"
+            },
+            "tablet": {
+                "hex": "#101010"
+            }
+        }
+    },
+    "shopengine_value_section_divider": {
+        "control": {
+            "field": "__experimentalDivider",
+            "props": {}
+        },
+        "type": "object"
+    },
+    "shopengine_value_section": {
+        "control": {
+            "field": "__experimentalHeading",
+            "props": {
+                "children": "Value "
+            }
+        },
+        "type": "object"
+    },
+    "shopengine_value_color": {
+        "control": {
+            "field": "ColorPicker",
+            "label": "Value Color"
+        },
+        "type": "object",
+        "default": {
+            "desktop": {
+                "hex": "#a0a0a0"
+            },
+            "mobile": {
+                "hex": "#a0a0a0"
+            },
+            "tablet": {
+                "hex": "#a0a0a0"
+            }
+        }
+    },
+    "shopengine_link_hover_color": {
+        "control": {
+            "field": "ColorPicker",
+            "label": "Link Hover Color"
+        },
+        "type": "object",
+        "default": {
+            "desktop": {
+                "hex": "#101010"
+            },
+            "mobile": {
+                "hex": "#101010"
+            },
+            "tablet": {
+                "hex": "#101010"
+            }
+        }
+    },
+    "shopengine_global_typo_section_divider": {
+        "control": {
+            "field": "__experimentalDivider",
+            "props": {}
+        },
+        "type": "object"
+    },
+    "shopengine_global_typo_section": {
+        "control": {
+            "field": "__experimentalHeading",
+            "props": {
+                "children": "Global Typography "
+            }
+        },
+        "type": "object"
+    },
+    "typography_section_start": {
+        "type": "PopoverControl",
+        "label": "Typography"
+    },
+    "shopengine_font_family": {
+        "control": {
+            "field": "FontfamilyControl",
+            "label": "Font Family"
+        },
+        "type": "object"
+    },
+    "shopengine_font_size": {
+        "control": {
+            "field": "RangeControl",
+            "label": "Font Size (px)",
+            "props": {
+                "min": 0,
+                "max": 100
+            }
+        },
+        "responsive": true,
+        "type": "object",
+        "default": {
+            "desktop": 14,
+            "tablet": 14,
+            "mobile": 14
+        }
+    },
+    "shopengine_font_weight": {
+        "control": {
+            "field": "SelectControl",
+            "label": "Font Weight",
+            "props": {
+                "options": [
+                    {
+                        "label": 100,
+                        "value": 100
+                    },
+                    {
+                        "label": 200,
+                        "value": 200
+                    },
+                    {
+                        "label": 300,
+                        "value": 300
+                    },
+                    {
+                        "label": 400,
+                        "value": 400
+                    },
+                    {
+                        "label": 500,
+                        "value": 500
+                    },
+                    {
+                        "label": 600,
+                        "value": 600
+                    },
+                    {
+                        "label": 700,
+                        "value": 700
+                    },
+                    {
+                        "label": 800,
+                        "value": 800
+                    },
+                    {
+                        "label": "Light",
+                        "value": "light"
+                    },
+                    {
+                        "label": "Normal",
+                        "value": "normal"
+                    },
+                    {
+                        "label": "Bold",
+                        "value": "bold"
+                    }
+                ]
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": 500,
+            "tablet": 500,
+            "mobile": 500
+        }
+    },
+    "shopengine_transform": {
+        "control": {
+            "field": "SelectControl",
+            "label": "Transform",
+            "props": {
+                "options": [
+                    {
+                        "label": "Default",
+                        "value": "default"
+                    },
+                    {
+                        "label": "Uppercase",
+                        "value": "uppercase"
+                    },
+                    {
+                        "label": "Lowercase",
+                        "value": "lowercase"
+                    },
+                    {
+                        "label": "Capitalize",
+                        "value": "capitalize"
+                    },
+                    {
+                        "label": "Normal",
+                        "value": "none"
+                    }
+                ]
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": "normal",
+            "tablet": "normal",
+            "mobile": "normal"
+        }
+    },
+    "shopengine_line_height": {
+        "control": {
+            "field": "RangeControl",
+            "label": "Line Height (px)",
+            "props": {
+                "min": 0,
+                "max": 100
+            }
+        },
+        "responsive": true,
+        "type": "object",
+        "default": {
+            "desktop": 17,
+            "tablet": 17,
+            "mobile": 17
+        }
+    },
+    "shopengine_word_spacing": {
+        "control": {
+            "field": "RangeControl",
+            "label": "Word Spacing (px)",
+            "props": {
+                "min": 0,
+                "max": 100
+            }
+        },
+        "responsive": true,
+        "type": "object",
+        "default": {
+            "desktop": 0,
+            "tablet": 0,
+            "mobile": 0
+        }
+    },
+    "typography_section_end": {
+        "type": "PopoverControl"
+    },
+    "style_end": {
+        "type": "PanelBody"
+    }
+}

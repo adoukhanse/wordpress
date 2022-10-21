@@ -1,0 +1,564 @@
+# Copyright (C) 2022 Wpmet
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Blocks for ShopEngine - Woocommerce Builder 1.0.0\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/blocks-for-shopengine\n"
+"POT-Creation-Date: 2022-05-17 08:21:53+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: blocks/checkout-review-order/dummy-checkout-review.php:34
+#: blocks/checkout-review-order/dummy-checkout-review.php:60
+#: blocks/product-review/dummy-review.php:54
+msgid "1"
+msgstr ""
+
+#: blocks/checkout-review-order/dummy-checkout-review.php:47
+#: blocks/product-review/dummy-review.php:55
+msgid "2"
+msgstr ""
+
+#: blocks/checkout-review-order/dummy-checkout-review.php:21
+#: blocks/product-review/dummy-review.php:56
+msgid "3"
+msgstr ""
+
+#: blocks/product-review/dummy-review.php:57
+msgid "4"
+msgstr ""
+
+#: blocks/product-review/dummy-review.php:10
+#: blocks/product-review/dummy-review.php:58
+msgid "5"
+msgstr ""
+
+#: blocks/add-to-cart/screen.php:16
+msgid "To see the add to cart button , please set stock status as instock for - ."
+msgstr ""
+
+#: blocks/additional-information/screen.php:4
+#: blocks/checkout-form-additional/screen.php:38
+msgid "Additional information"
+msgstr ""
+
+#: blocks/advanced-search/screen.php:32
+msgid "Search for Products..."
+msgstr ""
+
+#: blocks/archive-description/screen.php:26
+msgid ""
+"This is a dummy archive description based paragraph. It only appears on "
+"editor page and  will help you to customize your actual description"
+msgstr ""
+
+#: blocks/archive-result-count/screen.php:9
+msgid "Showing all results"
+msgstr ""
+
+#: blocks/cart-table/cart.php:51
+msgid "Image"
+msgstr ""
+
+#: blocks/cart-table/cart.php:67
+msgid "Remove this item"
+msgstr ""
+
+#: blocks/cart-table/cart.php:81
+#: blocks/checkout-review-order/dummy-checkout-review.php:10
+msgid "Product"
+msgstr ""
+
+#: blocks/cart-table/cart.php:96
+msgid "Available on backorder"
+msgstr ""
+
+#: blocks/cart-table/cart.php:103
+msgid "Price"
+msgstr ""
+
+#: blocks/cart-table/cart.php:110
+msgid "Quantity"
+msgstr ""
+
+#: blocks/cart-table/cart.php:138 blocks/cart-totals/screen.php:34
+#: blocks/cart-totals/screen.php:35
+#: blocks/checkout-review-order/dummy-checkout-review.php:11
+#: blocks/checkout-review-order/dummy-checkout-review.php:70
+msgid "Subtotal"
+msgstr ""
+
+#: blocks/cart-totals/screen.php:73 blocks/cart-totals/screen.php:74
+msgid "Shipping"
+msgstr ""
+
+#: blocks/cart-totals/screen.php:93
+#. translators: %s location.
+msgid "(estimated for %s)"
+msgstr ""
+
+#: blocks/cart-totals/screen.php:121 blocks/cart-totals/screen.php:122
+#: blocks/checkout-review-order/dummy-checkout-review.php:78
+msgid "Total"
+msgstr ""
+
+#: blocks/checkout-coupon-form/screen.php:35
+msgid "Have a coupon?"
+msgstr ""
+
+#: blocks/checkout-coupon-form/screen.php:37
+msgid "Click here to enter your code"
+msgstr ""
+
+#: blocks/checkout-coupon-form/screen.php:43
+msgid "If you have a coupon code, please apply it below."
+msgstr ""
+
+#: blocks/checkout-coupon-form/screen.php:47
+msgid "Coupon code"
+msgstr ""
+
+#: blocks/checkout-coupon-form/screen.php:52
+msgid "Apply coupon"
+msgstr ""
+
+#: blocks/checkout-form-billing/screen.php:47
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: blocks/checkout-form-billing/screen.php:51
+msgid "Billing details"
+msgstr ""
+
+#: blocks/checkout-form-billing/screen.php:79
+msgid "Create an account?"
+msgstr ""
+
+#: blocks/checkout-form-shipping/screen.php:36
+msgid "Ship to a different address?"
+msgstr ""
+
+#: blocks/checkout-payment/screen.php:30
+msgid ""
+"Your cart is empty, please add some simple product in cart and then come "
+"back to editor to see checkout page."
+msgstr ""
+
+#: blocks/checkout-review-order/dummy-checkout-review.php:4
+#: blocks/checkout-review-order/screen.php:5
+msgid "Your order"
+msgstr ""
+
+#: blocks/checkout-review-order/dummy-checkout-review.php:20
+#: blocks/up-sells/dummy-up-sell.php:79
+msgid "Kitchen Appliances with wood"
+msgstr ""
+
+#: blocks/checkout-review-order/dummy-checkout-review.php:25
+msgid "429.30"
+msgstr ""
+
+#: blocks/checkout-review-order/dummy-checkout-review.php:31
+msgid ""
+"https://secure.gravatar.com/userimage/221270643/caf9b709b011aa3037870deda912"
+"f335.png?size=200"
+msgstr ""
+
+#: blocks/checkout-review-order/dummy-checkout-review.php:33
+msgid "Wireless LCD Audio Video"
+msgstr ""
+
+#: blocks/checkout-review-order/dummy-checkout-review.php:38
+msgid "140.00"
+msgstr ""
+
+#: blocks/checkout-review-order/dummy-checkout-review.php:46
+msgid "Trending Watch for Man "
+msgstr ""
+
+#: blocks/checkout-review-order/dummy-checkout-review.php:51
+msgid "250.86"
+msgstr ""
+
+#: blocks/checkout-review-order/dummy-checkout-review.php:59
+msgid "Golden Horse "
+msgstr ""
+
+#: blocks/checkout-review-order/dummy-checkout-review.php:64
+msgid "120.00"
+msgstr ""
+
+#: blocks/checkout-review-order/dummy-checkout-review.php:73
+#: blocks/checkout-review-order/dummy-checkout-review.php:81
+msgid "940.16"
+msgstr ""
+
+#: blocks/checkout-shipping-methods/screen.php:25
+msgid "Some hardcoded html for editor only for checkout shipping method widget!."
+msgstr ""
+
+#: blocks/deal-products/screen.php:89
+msgid "%"
+msgstr ""
+
+#: blocks/deal-products/screen.php:104 utils/helper.php:322
+msgid "Days"
+msgstr ""
+
+#: blocks/deal-products/screen.php:110 utils/helper.php:323
+msgid "Hours"
+msgstr ""
+
+#: blocks/deal-products/screen.php:115
+msgid "Min"
+msgstr ""
+
+#: blocks/deal-products/screen.php:120
+msgid "Sec"
+msgstr ""
+
+#: blocks/deal-products/screen.php:157
+msgid "Available:"
+msgstr ""
+
+#: blocks/deal-products/screen.php:161
+msgid "Sold:"
+msgstr ""
+
+#: blocks/deal-products/screen.php:173
+msgid "No deal products available"
+msgstr ""
+
+#: blocks/filter-orderby/screen.php:3
+msgid "Default sorting"
+msgstr ""
+
+#: blocks/filter-orderby/screen.php:4
+msgid "Sort by popularity"
+msgstr ""
+
+#: blocks/filter-orderby/screen.php:5
+msgid "Sort by average rating"
+msgstr ""
+
+#: blocks/filter-orderby/screen.php:6
+msgid "Sort by latest"
+msgstr ""
+
+#: blocks/filter-orderby/screen.php:7
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: blocks/filter-orderby/screen.php:8
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: blocks/filter-orderby/screen.php:9
+msgid "Sort by title: a to z"
+msgstr ""
+
+#: blocks/filter-orderby/screen.php:10
+msgid "Sort by title: z to a"
+msgstr ""
+
+#: blocks/filter-orderby/screen.php:24 blocks/filter-orderby/screen.php:35
+msgid "Shop order"
+msgstr ""
+
+#: blocks/product-categories/screen.php:26
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: blocks/product-category-lists/screen.php:41
+msgid "%s product"
+msgid_plural "%s products"
+msgstr[0] ""
+msgstr[1] ""
+
+#: blocks/product-category-lists/screen.php:64
+msgid "Add some category"
+msgstr ""
+
+#: blocks/product-excerpt/screen.php:21
+msgid ""
+"Dummy short description only for editor preview mode if and only if the "
+"editor selected product has no short description."
+msgstr ""
+
+#: blocks/product-image/screen.php:31
+msgid "% OFF"
+msgstr ""
+
+#: blocks/product-list/screen.php:231 blocks/up-sells/dummy-up-sell.php:14
+#: utils/helper.php:268
+msgid "Sale!"
+msgstr ""
+
+#: blocks/product-list/screen.php:256
+msgid ","
+msgstr ""
+
+#: blocks/product-list/screen.php:307
+msgid "No product found."
+msgstr ""
+
+#: blocks/product-rating/screen.php:23
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: blocks/product-review/dummy-review.php:4
+msgid "2 reviews for"
+msgstr ""
+
+#: blocks/product-review/dummy-review.php:4
+msgid "(dummy reviews, only for preview)"
+msgstr ""
+
+#: blocks/product-review/dummy-review.php:10
+msgid "Rated 5 out of 5"
+msgstr ""
+
+#: blocks/product-review/dummy-review.php:10
+#: blocks/product-review/dummy-review.php:27
+msgid "Rated"
+msgstr ""
+
+#: blocks/product-review/dummy-review.php:10
+#: blocks/product-review/dummy-review.php:27
+msgid "out of 5"
+msgstr ""
+
+#: blocks/product-review/dummy-review.php:12
+msgid "Jhon Doe"
+msgstr ""
+
+#: blocks/product-review/dummy-review.php:13
+#: blocks/product-review/dummy-review.php:30
+msgid "(verified owner)"
+msgstr ""
+
+#: blocks/product-review/dummy-review.php:27
+msgid "Rated 3 out of 5"
+msgstr ""
+
+#: blocks/product-review/dummy-review.php:29
+msgid "David"
+msgstr ""
+
+#: blocks/product-review/dummy-review.php:31
+msgid "May 26, 2021"
+msgstr ""
+
+#: blocks/product-review/dummy-review.php:47
+msgid "Cancel reply"
+msgstr ""
+
+#: blocks/product-review/dummy-review.php:51
+msgid "Your rating"
+msgstr ""
+
+#: blocks/product-review/dummy-review.php:51
+#: blocks/product-review/dummy-review.php:71
+msgid "*"
+msgstr ""
+
+#: blocks/product-review/dummy-review.php:62
+msgid "Rate…"
+msgstr ""
+
+#: blocks/product-review/dummy-review.php:63
+msgid "Perfect"
+msgstr ""
+
+#: blocks/product-review/dummy-review.php:64
+msgid "Good"
+msgstr ""
+
+#: blocks/product-review/dummy-review.php:65
+msgid "Average"
+msgstr ""
+
+#: blocks/product-review/dummy-review.php:66
+msgid "Not that bad"
+msgstr ""
+
+#: blocks/product-review/dummy-review.php:67
+msgid "Very poor"
+msgstr ""
+
+#: blocks/product-review/dummy-review.php:71
+msgid "Your review"
+msgstr ""
+
+#: blocks/product-review/dummy-review.php:75
+msgid "Submit"
+msgstr ""
+
+#: blocks/product-sku/screen.php:10
+msgid "This product has no sku"
+msgstr ""
+
+#: blocks/product-sku/screen.php:30
+msgid "SKU:"
+msgstr ""
+
+#: blocks/product-sku/screen.php:34
+msgid "N/A"
+msgstr ""
+
+#: blocks/product-stock/screen.php:57
+msgid "On backorder"
+msgstr ""
+
+#: blocks/product-stock/screen.php:59
+msgid "In Stock"
+msgstr ""
+
+#: blocks/product-stock/screen.php:61
+msgid "Out of stock"
+msgstr ""
+
+#: blocks/product-tags/screen.php:13
+msgid "This product has no tags"
+msgstr ""
+
+#: blocks/product-tags/screen.php:25
+msgid "TAG:"
+msgid_plural "TAGs:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: blocks/recently-viewed-products/screen.php:76
+msgid "Ends in "
+msgstr ""
+
+#: blocks/related/dummy-related-product.php:12
+msgid "Related products "
+msgstr ""
+
+#: blocks/related/dummy-related-product.php:21
+msgid "SANDA Top White Men’s Sports"
+msgstr ""
+
+#: blocks/related/dummy-related-product.php:23
+msgid "299.00"
+msgstr ""
+
+#: blocks/related/dummy-related-product.php:25
+msgid "500.00"
+msgstr ""
+
+#: blocks/related/dummy-related-product.php:37
+msgid "View products "
+msgstr ""
+
+#: blocks/related/dummy-related-product.php:52
+msgid "White Women Sports"
+msgstr ""
+
+#: blocks/related/dummy-related-product.php:54
+msgid "450.00 "
+msgstr ""
+
+#: blocks/related/dummy-related-product.php:65
+#: blocks/related/dummy-related-product.php:91
+#: blocks/related/dummy-related-product.php:118
+msgid "Add to cart"
+msgstr ""
+
+#: blocks/related/dummy-related-product.php:78
+msgid "Music Intercom Portable"
+msgstr ""
+
+#: blocks/related/dummy-related-product.php:80
+msgid "300.00 "
+msgstr ""
+
+#: blocks/related/dummy-related-product.php:104
+msgid "Fruit and Berry Salads in Jars"
+msgstr ""
+
+#: blocks/related/dummy-related-product.php:106
+msgid "436.00 "
+msgstr ""
+
+#: blocks/return-to-shop/screen.php:9
+msgid "Return to shop"
+msgstr ""
+
+#: blocks/up-sells/dummy-up-sell.php:7
+msgid "You may also like…"
+msgstr ""
+
+#: blocks/up-sells/dummy-up-sell.php:19
+msgid "Wireless LCD Audio Video…"
+msgstr ""
+
+#: blocks/up-sells/dummy-up-sell.php:49
+msgid "Corporate Mid Back Multifunction Mesh Office Chair"
+msgstr ""
+
+#: blocks/up-sells/dummy-up-sell.php:109
+msgid "Golden Horse"
+msgstr ""
+
+#: shopengine-gutenberg-addon.php:102
+msgid "Shopengine Gutenberg Addon requires ShopEngine version 2.1.1 or higher. "
+msgstr ""
+
+#: shopengine-gutenberg-addon.php:119
+msgid "Activate ShopEngine"
+msgstr ""
+
+#: shopengine-gutenberg-addon.php:122
+msgid "Install ShopEngine"
+msgstr ""
+
+#: shopengine-gutenberg-addon.php:130
+msgid ""
+"Shopengine Gutenberg Addon requires ShopEngine, which is currently NOT "
+"RUNNING. "
+msgstr ""
+
+#: utils/helper.php:324
+msgid "Minutes"
+msgstr ""
+
+#: utils/helper.php:325
+msgid "Seconds"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Blocks for ShopEngine - Woocommerce Builder"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpmet.com/plugin/shopengine"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"ShopEngine Gutenberg Addon is the most-complete WooCommerce template "
+"builder for Elementor. It helps you build and customize the single product "
+"page, cart page, archive page, checkout page, order page, my account page, "
+"and thank-you page from scratch. It also packed with product comparison, "
+"wishlist, quick view, and variation swatches etc."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Wpmet"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wpmet.com"
+msgstr ""
